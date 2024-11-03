@@ -5,10 +5,10 @@ red = '\x1b[48;5;196m'
 yellow = '\x1b[48;5;220m'
 green = '\x1b[48;5;82m'
 stop = '\x1b[0m'
-len = 40
+LENGTH = 40
 
 def draw_line(color):
-    line = ' ' * len
+    line = ' ' * LENGTH
     print(color, line, stop, end='\n')
 
 def flag_maker():
